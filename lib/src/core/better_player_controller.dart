@@ -1279,6 +1279,10 @@ class BetterPlayerController {
     }
   }
 
+  void clearEventListeners() {
+    _eventListeners.clear();
+  }
+
   ///Dispose BetterPlayerController. When [forceDispose] parameter is true, then
   ///autoDispose parameter will be overridden and controller will be disposed
   ///(if it wasn't disposed before).
